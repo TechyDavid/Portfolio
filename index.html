@@ -17,7 +17,7 @@
     }
     .container-fluid{
        width: 100%;
-       height: 2000px;
+       height: 3500px;
        background-image: url(pexels-joão-jesus-925743.jpg);
        background-size: cover;
     }
@@ -85,7 +85,7 @@
         height: 60px;
         position: absolute;
         right: 40px;
-        opacity: 0.3;
+        opacity: 0;
     }
     #Input:checked ~ ul{
         left: 0px;
@@ -105,6 +105,8 @@
     .omo{
         width: 100%;
         height: 600px;
+        background-image: url(wp12541971-minimalist-aesthetic-4k-wallpapers.jpg);
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -168,6 +170,40 @@
         text-align: center;
         font-family: Canela;
     }
+    .works{
+        width: 100%;
+        height: 600px;
+        /* background-color: #9C958E; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .works h2{
+        text-align: center;
+        font-family: Canela;
+        font-size: 60px;
+    }
+    .one{
+        width: 100%;
+        height: 450px;
+        /* background-color: #C28873; */
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #rufus button a{
+           text-decoration: none;
+           color: black;
+    }
+    .dave img{
+        width: 300px;
+    }
+  
+    /* #rufus img{
+        width: 400px;
+    }
+    #blizzy{
+        width: 300px;
+    } */
     /* @media (max-width: 1000px) {
         .about{
             width: 100%;
@@ -205,6 +241,21 @@
             color: #9C958E;
             font-size: 16px;
         }
+        .works{
+            margin-top: 500px;
+            height: 1400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .one{
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+        }
+        #rufus button a{
+            color: #9C958E;
+        }
     }
     @media (max-width: 650px) {
         .Nav ul{
@@ -221,10 +272,30 @@
         }
         .second{
             width: 100% ;
-            color: #C28873;
+            color: #df9f88;
         }
         .words{
             color: #9C958E;
+        }
+        .works{
+            width: 100%;
+            margin-top: 500px;
+        }
+        .omo{
+            color: #df9f88;
+        }
+        .one{
+            width: 100%;
+            height: 400px;
+        }
+        #rufus button{
+            margin-left: 160px;
+        }
+        #blizzy button{
+            margin-left: 150px;
+        }
+        #Hailey button{
+            margin-left: 150px;
         }
     }
 </style>
@@ -263,8 +334,15 @@
                         AND GRAPHICS DESIGNER BASED IN NIGERIA. <br>
                         I'M AVAILABLE FOR PROJECTS, COLLABORATIONS AND PRODUCT DESIGNS <br>BUT MY SKILLS DON'T STOP THERE. I'M CONSTANTLY LOOKING TO LEARNING NEW THINGS AND NEW EXPERIENCES IN THIS VAST WORLD OF CREATIVITY. THROUGH THIS, I HAVE LEARNED SELF-TAUGHT UI DESIGN, GRAPHIC DESIGN, PRODUCT DESIGN, AND SOME VIDEO ANIMATION (MOTION DESIGN).</div>
                 </div>
-            </div>       
-        </div>
+            </div> 
+            
+              <div class="works col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h2>Works</h2>
+                <div id="rufus" class="one col-xl-3 col-lg-3"><img src="ruf.png" alt=""  class="col-xl-12 col-lg-12 col-md-6 col-sm-8 col-12" > <button class="btn btn-outline-secondary"><a href="https://homeinspectionservice.000webhostapp.com/">Click Me</a></button></div>
+                <div id="blizzy" class="one col-xl-3 col-lg-3"><img src="Blizzys.png" alt=""  class="col-xl-12 col-lg-12 col-md-6 col-sm-8 col-12"> <button class="btn btn-outline-primary">Coming Soon....</button></div>
+                <div id="Hailey" class="one col-xl-3 col-lg-3"><img src="Hailey.png" alt="" class="col-xl-12 col-lg-12 col-md-6 col-sm-8 col-12"><button class="btn btn-outline-primary">Coming Soon....</button></div> 
+            </div>
+            <div class="dave"><img src="3x/Asset 1@3x.png" alt=""></div>
     </div>
 </body>
 </html>
